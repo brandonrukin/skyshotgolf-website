@@ -1,0 +1,21 @@
+.services {
+	padding: 40px;
+	h1 {
+		font-weight: 600;
+		text-align: center;
+	}
+	&__list {
+		lost-center: 1280px;
+	}
+	&__item {
+  		lost-column: 1/4 4 60px;
+  		text-align: center;
+  		h1 {
+  			font-weight: 400;
+  			font-size: 1.6em;
+  		}
+  		p {
+  			font-weight: 300;
+  		}
+  	}
+}

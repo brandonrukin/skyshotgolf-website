@@ -10,6 +10,9 @@ body {
 	font: 16px 'Lato', sans-serif;
 }
 
-/*
-@import '_blank.css';
-*/
+@import '_header.css';
+@import '_landing.css';
+@import '_action.css';
+@import '_services.css';
+@import '_free.css';
+@import '_footer.css';

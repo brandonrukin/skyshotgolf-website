@@ -1,0 +1,16 @@
+.footer {
+	background: #3C3C3C;
+	height: 200px;
+	text-align: center;
+	color: #8F8F8F;
+	padding: 45px;
+	img {
+		height: 28px;
+	}
+	p {
+		font-weight: 300;
+	}
+	i {
+		padding: 8px;
+	}
+}

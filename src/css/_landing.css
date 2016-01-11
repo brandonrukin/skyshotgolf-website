@@ -1,0 +1,27 @@
+.landing {
+	background: url(../images/ssg-bg.png) no-repeat center center;
+	background-size: cover;
+	height: 810px;
+	padding: 20px;
+	&__intro {
+		font-size: 1.6em;
+		text-align: center;
+		h2 {
+			font-weight: 400;
+			color: #FFF;
+			margin-bottom: 0em;
+		}
+		p {
+			font-weight: 200;
+			color: #FFF;
+			margin-top: .5em;
+			span {
+				color: #AEFFA0;
+			}
+		}
+		img {
+			margin-top: 30px;
+			width: 1100px;
+		}
+	}
+}
