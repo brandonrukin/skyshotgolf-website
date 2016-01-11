@@ -1,0 +1,15 @@
+@import 'normalize.css';
+
+@lost flexbox flex;
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font: 16px 'Lato', sans-serif;
+}
+
+/*
+@import '_blank.css';
+*/

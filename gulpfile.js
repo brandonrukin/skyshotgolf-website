@@ -3,7 +3,7 @@ var gulp = require('gulp');
 
 //require gulp plugins
 var postcss = require('gulp-postcss'),
-   cssnext = require('cssnext'),
+   cssnext = require('postcss-cssnext'),
    precss = require('precss'),
    autoprefixer = require('autoprefixer-core'),
    lost = require('lost'),
