@@ -1,7 +1,10 @@
 .services {
-	padding: 40px;
-	h1 {
+	padding: 80px;
+  padding-top: 40px;
+  color: #555;
+	&__tagline{
 		font-weight: 600;
+    margin-bottom: 2em;
 		text-align: center;
 	}
 	&__list {
@@ -10,12 +13,28 @@
 	&__item {
   		lost-column: 1/4 4 60px;
   		text-align: center;
+      i {
+          font-size: 2em;
+          color: #6E9266;
+      }
   		h1 {
   			font-weight: 400;
   			font-size: 1.6em;
+        margin-bottom: .8em;
   		}
   		p {
   			font-weight: 300;
   		}
+      span {
+        color: #888;
+        font-size: .9em;
+      }
+      .available {
+        color: #009DDC;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
   	}
 }
