@@ -10,6 +10,10 @@ body {
 	font: 16px 'Lato', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 @import '_nav.css';
 @import '_header.css';
 @import '_landing.css';
