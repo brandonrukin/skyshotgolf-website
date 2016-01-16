@@ -1,0 +1,16 @@
+/* Tried a nav with pure flexbox*/
+
+.nav {
+	width: 100%;
+	display: flex;
+	&__logo {
+		flex: 1;
+		justify-content: flex-start;
+	}
+	&__items {
+		flex: 1;
+		display: flex;
+		justify-content: flex-end;
+		color: #FFF;
+	}
+}

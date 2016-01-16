@@ -35,6 +35,10 @@
         &:hover {
           text-decoration: underline;
         }
+        i {
+          font-size: 1em;
+          margin-left: 3px;
+        }
       }
   	}
 }
