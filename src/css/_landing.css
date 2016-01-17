@@ -1,21 +1,22 @@
 .landing {
 	background: url(../images/ssg-bg.png) no-repeat center center;
-	height: 882px;
+	background-size: cover;
+	height: 900px;
 	padding: 20px;
 	&__intro {
-		margin-top: 2em;
+		margin-top: 55px;
 		text-align: center;
 		h2 {
 			font-size: 2.7em;
 			font-weight: 600;
 			color: #FFF;
-			margin-bottom: 0em;
+			margin-bottom: 0px;
 		}
 		p {
 			font-size: 1.6em;
 			font-weight: 300;
 			color: #FFF;
-			margin-top: .5em;
+			margin-top: 10px;
 			span {
 				color: #AEFFA0;
 			}
@@ -26,3 +27,69 @@
 		}
 	}
 }
+
+@media screen and (max-width: 1160px) {
+	.landing {
+		height: 768px;
+		padding: 16px;
+		&__intro {
+			margin-top: 50px;
+			h2 {
+				font-size: 2.4em;
+			}
+			p {
+				font-size: 1.5em;
+				margin-top: 8px;
+			}
+			img {
+				margin-top: 25px;
+				width: 900px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.landing {
+		height: 596px;
+		padding: 12px;
+		&__intro {
+			margin-top: 36px;
+			h2 {
+				font-size: 1.9em;
+			}
+			p {
+				font-size: 1.2em;
+				margin-top: 6px;
+			}
+			img {
+				margin-top: 22px;
+				width: 680px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.landing {
+		height: 439px;
+		padding: 8px;
+		&__intro {
+			margin-top: 36px;
+			h2 {
+				font-size: 1.9em;
+			}
+			p {
+				font-size: 1.2em;
+				margin-top: 6px;
+			}
+			img {
+				margin-top: 22px;
+				width: 300px;
+			}
+		}
+	}
+}
+
+
+
